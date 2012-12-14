@@ -21,8 +21,7 @@ PRODUCT_COPY_FILES += \
     device/semc/mango/prebuilt/pre_hw_config.sh:root/pre_hw_config.sh \
     device/semc/mango/prebuilt/hw_config.sh:system/etc/hw_config.sh \
     device/semc/msm7x30-common/prebuilt/logo_M.rle:root/logo.rle \
-    device/semc/mango/prebuilt/bootrec-device:root/sbin/bootrec-device \
-    device/semc/mango/recovery.fstab:root/recovery.fstab
+    device/semc/mango/recovery/bootrec-device:recovery/bootrec-device
 
 # Device specific configs
 PRODUCT_COPY_FILES += \

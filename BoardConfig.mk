@@ -12,5 +12,8 @@ SENSORS_ACCEL_BMA250_INPUT := true
 SENSORS_PROXIMITY_APDS9700 := true
 SENSORS_PRESSURE_BMP180 := false
 
+#Recovery
+TARGET_RECOVERY_INITRC := device/semc/mango/recovery/init.rc
+
 TARGET_OTA_ASSERT_DEVICE := SK17i,SK17a,mango
 
